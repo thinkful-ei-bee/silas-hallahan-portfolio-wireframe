@@ -1,25 +1,82 @@
+/*
+Color Pallet:
+Purple: (129, 141, 187);
+Beige: (226, 215, 198);
+Black: (46, 49, 52);
+Orange-Red: (199, 94, 62);
+Olive: (134, 158, 97);
+Gray: (224, 224, 224);
+*/
+
+
+
 * {
     box-sizing: border-box;
 }
 
 body {
+    background-color: rgb(245, 241, 236);
     font-family: 'Raleway', sans-serif;
-    color: rgb(51, 51, 51);
+    color: rgb(46, 49, 52);
+    font-weight: 400;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 15%;
+    margin-bottom: 3%;
+}
+
+h2 {
+    color: rgb(134, 158, 97);
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 3%;
 }
 
 section {
-    background-color: rgb(216, 216, 216);
     padding: 6% 0;
-    min-height: 152px;
+    min-height: 250px;
 }
 
-section:nth-child(even) {
-    background-color: gray
+.line {
+    height: 2px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(224, 224, 224);
+}
+
+.clickable {
+    color: rgb(199, 94, 62);
+    font-weight: 300;
+}
+
+.portrait {
+    margin-top: 7%;
+    width: 25%;
+    border-radius: 50%;
+}
+
+.portrait-space p {
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+.project-images {
+    border: 2px solid rgb(224, 224, 224);
+    width: 90%;
+}
+
+.bookmarks {
 }
 
 footer {
-    background-color: darkgray;
+    background-color: rgb(134, 158, 97);
+    min-height: 80px;
     padding: 1% 0;
 }
