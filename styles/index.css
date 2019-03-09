@@ -81,15 +81,23 @@ p {
 }
 
 .project-space .clickable {
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .project-images {
     border: 2px solid rgb(224, 224, 224);
     width: 75%;
+    margin-top: 2%;
 }
 
-.bookmarks {
+.about-me-space h3 {
+    margin-top: 1%;
+    margin-bottom: 7%;
+}
+
+.about-me-space p {
+    text-align: left;
+    margin-bottom: 5%;
 }
 
 footer {
