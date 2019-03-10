@@ -127,12 +127,13 @@ a {
 
 footer {
     background-color: rgb(129, 141, 187);
-    min-height: 80px;
+    min-height: 62px;
     padding: 1% 0;
 }
 
 .thumbnail {
     display: inline-block;
+    max-width: 10%;
 }
 
 .email {
@@ -140,14 +141,25 @@ footer {
     margin: 2% 2%;
 }
 
+.github {
+    width: 6%;
+    margin: 4% 5%;
+}
+
+.linkedin {
+    width: 6%;
+    margin: 4% 5%;
+}
+
 .instagram {
     width: 20%;
-    margin: 5% 5%;
+    margin: 3% 5%;
 }
 
 .facebook {
-    width: 14%;
+    width: 6%;
     margin: 5% 5%;
+    margin-bottom: 4%;
 }
 
 
@@ -172,7 +184,7 @@ footer {
       font-size: 16px;
   }
   h1 {
-      margin-top: 5%;
+      margin-top: 2%;
       font-size: 60px;
       margin-bottom: 2%;
   }
@@ -220,6 +232,7 @@ footer {
   footer {
       min-height: 0;
       padding: 0;
+      margin-top: 2%;
   }
   .email {
     width: 6%;
@@ -227,6 +240,14 @@ footer {
     margin-top: 3px;
     position: relative;
     top: 1px;
+  }
+  .github {
+    width: 4%;
+    margin: 1.1% 5%;
+  }
+  .linkedin {
+    width: 4%;
+    margin: 1.1% 1%;
   }
   .instagram {
     width: 6%;
