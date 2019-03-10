@@ -215,13 +215,13 @@ footer {
   }
   .project-space p {
       margin: auto;
-      max-width: 40%;
+      max-width: 400px;
   }
   .project-space .clickable {
       margin-top: 3%;
   }
   .about-me-space p {
-      max-width: 43%;
+      max-width: 468px;
       margin-bottom: 2.5%;
       margin-left: auto;
       margin-right: auto;
