@@ -105,3 +105,22 @@ footer {
     min-height: 80px;
     padding: 1% 0;
 }
+
+.thumbnail {
+    display: inline-block;
+}
+
+.email {
+    width: 20%;
+    margin: 2% 2%;
+}
+
+.instagram {
+    width: 20%;
+    margin: 5% 5%;
+}
+
+.facebook {
+    width: 14%;
+    margin: 5% 5%;
+}
