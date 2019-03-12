@@ -202,14 +202,19 @@ footer {
   h1 {
       margin-top: 2%;
       font-size: 60px;
-      margin-bottom: 2%;
+      margin-bottom: 0.5%;
   }
   h2 {
       margin-bottom: 2%;
+      margin-top: 1.2%;
       font-size: 27px;
   }
   h3 {
       font-size: 26px;
+  }
+  h4 {
+      font-size: 14px;
+      margin-bottom: 2%;
   }
   section {
       padding: 4% 0;
